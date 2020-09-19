@@ -1,5 +1,10 @@
 // console.log(moment().format());
 // console.log(moment().format("h A"));
+var today = moment();
+var currentDate = today.format("hh:mm A MMM DD YYYY ");
+
+// Set the date 
+$("#currentDay").append("Date: " + currentDate);
 
 
 // // TODO: Create one row with time, text area, and button using JQ
