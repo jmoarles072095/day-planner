@@ -1,5 +1,6 @@
 // console.log(moment().format());
 // console.log(moment().format("h A"));
+// // TODO: SHow the time on top of the calender, Using moment.js grab the time, and set the text to top of the page
 var today = moment();
 var currentDate = today.format("hh:mm A MMM DD YYYY ");
 
@@ -22,14 +23,6 @@ $("#currentDay").append("Date: " + currentDate);
 //     </button>
 //     </div> */
 // }
-
-
-// // TODO: SHow the time on top of the calender, Using moment.js grab the time, and set the text of the P tag with the id of currentDay to be our time from moment.js
-var today = moment();
-var currentDate = today.format("hh:mm A MMM DD YYYY ");
-
-// Set the date 
-$("#currentDay").append("Date: " + currentDate);
 
 // TODO:  Create an array to hold the hours that I need ["9 AM", "10 AM", "..." "12 PM" etc]
 var hours = ["9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM"]
