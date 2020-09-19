@@ -7,3 +7,5 @@
 6. Modidifed style.css to my custom colors
 
 # Link
+
+https://jmoarles072095.github.io/day-planner/.
