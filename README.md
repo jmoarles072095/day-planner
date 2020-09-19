@@ -9,3 +9,7 @@
 # Link
 
 https://jmoarles072095.github.io/day-planner/.
+
+# Deplyed Website
+
+<img src="deployedWebsite.png" alt="image of deployed website">
